@@ -1,0 +1,23 @@
+{
+  "name": "teste-jest",
+  "version": "1.0.0",
+  "description": "Atividade de qualidade e teste de software",
+  "main": "functions.test.js",
+  "scripts": {
+    "test": "functions.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliveiraeliel/teste-jest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliveiraeliel/teste-jest/issues"
+  },
+  "homepage": "https://github.com/oliveiraeliel/teste-jest#readme",
+  "devDependencies": {
+    "jest": "^27.1.0",
+    "nodemon": "^2.0.12"
+  }
+}
