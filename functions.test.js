@@ -1,5 +1,8 @@
 const functions = require('./functions');
 
+//testes da função do primeiro grau
+
+//y = ax + b
 test('Teste função primeiro grau 1', () => {
     expect(functions.solucaoPrimeiroGrau(-1, 4)).toBe(4);
 })
@@ -21,6 +24,7 @@ test('Teste função primeiro grau: a=0', () => {
 
 //testes da função do segundo grau
 
+//y = ax² + bx + c
 test('Teste função do segundo grau 1', () => {
     const result = functions.solucaoSegundoGrau(1, -1, 6);
     expect(result.x1).toBe('delta negativo')
