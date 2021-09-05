@@ -18,10 +18,12 @@ test('Teste função primeiro grau 4 (falha)', () => {
 test('Teste função primeiro grau 5', () => {
     expect(functions.solucaoPrimeiroGrau(-1, -5.5)).toBe(-5.5);
 })
-test('Teste função primeiro grau: a=0', () => {
+test('Teste função primeiro grau: a=0 (falha)', () => {
+    expect(functions.solucaoPrimeiroGrau(0, 4)).toBe('5');
+})
+test('Teste função primeiro grau: a=0 (sucesso)', () => {
     expect(functions.solucaoPrimeiroGrau(0, 4)).toBe('erro');
 })
-
 //testes da função do segundo grau
 
 //y = ax² + bx + c
